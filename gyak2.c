@@ -9,6 +9,5 @@ unsigned long long ull; //unsigned-> elojel nélküli -> 0...+   + 1 byte az el�
 */
 #include <stdio.h>
 int main(){
-
-    }
+    
 }
