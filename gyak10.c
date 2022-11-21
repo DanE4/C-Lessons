@@ -6,11 +6,10 @@
 extern int a;   //van valahol valamelyik fileban egy a változó, de nem tudom hol
 //staticra nem vonatkozik, mert a static változók csak a fájlban látszanak
 //pl másik fileban int a = 5;
-//miért 
+
 int scalar(int a, int b){
     return a*b;
 }
-//function for matrix multiplication
 void matrix(int a[3][3], int b[3][3]){
     int c[3][3];
     for(int i = 0; i < 3; i++){
