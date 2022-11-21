@@ -37,7 +37,6 @@ int main(){
     int b[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
     matrix(a,b);
 }
-
 /*
 #define bigger(a,b) (a>b)?a:b
 #define stringify(value) #value
