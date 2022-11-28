@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "headers.h"    //itt be lesz hivva a pow2 
-#include "headers.h"    //itt nem
-
+#include <headers.h>    //itt nem
 extern int a;   //van valahol valamelyik fileban egy a változó, de nem tudom hol
 //staticra nem vonatkozik, mert a static változók csak a fájlban látszanak
 //pl másik fileban int a = 5;
@@ -37,6 +36,7 @@ int main(){
     int b[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
     matrix(a,b);
 }
+
 /*
 #define bigger(a,b) (a>b)?a:b
 #define stringify(value) #value
