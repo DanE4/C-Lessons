@@ -4,13 +4,11 @@ struct point{
     int x;
     int y;
 };
-//create enum in C
 enum color{
     red,
     green,
     blue
 };
-//create union in C
 union data{
     int i;
     float f;
